@@ -188,3 +188,6 @@ Join vaccination_data as vac
 on DEA.location=vac.location
 and DEA.Date=vac.date
 where dea.continent is not null
+
+
+select * from PERCENTAGE_VACCINATED
